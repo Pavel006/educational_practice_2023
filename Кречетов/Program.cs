@@ -43,17 +43,13 @@ namespace Кречетов
                 var programmPath = Path.GetDirectoryName(location);
                 byte[] buffer = Encoding.Default.GetBytes("");
                 if (archive.Entries.Count() < number)
+            {
                 {
-                    using (FileStream fstream = File.Open(programmPath + $"{number}_{fileStream.Name}", FileMode.Create))
-                    {
-
-                    }
                 }
-                foreach (ZipArchiveEntry entry in archive.Entries)
                 {
-
                 }
             }
+            Console.Read();
         }
     }
 }
