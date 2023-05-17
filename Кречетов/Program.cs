@@ -27,7 +27,7 @@ namespace Кречетов
 
             Console.Write("\nВведите номер файла: \n> ");
             string numberFile = Console.ReadLine();
-            
+
             Console.Write("\nВведит путь к папку в котору хотите сохранить файл: \n> ");
             string savePath = Console.ReadLine();
 
@@ -50,8 +50,6 @@ namespace Кречетов
                             output.Write("");
                         }
                     }
-                    Console.WriteLine("\n" + $@"Файл {number}_{archiveName}.txt сохранен.");
-                    Console.WriteLine($@"Путь до файла: {savePath}\{number}_{archiveName}.txt");
                 }
                 else
                 {
@@ -75,7 +73,6 @@ namespace Кречетов
                         }
                     }
                 }
-                Console.WriteLine("\nНажмите Enter чтобы выйти.");
                 Console.ReadLine();
             }
         }
