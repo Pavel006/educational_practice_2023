@@ -50,6 +50,8 @@ namespace Кречетов
                             output.Write("");
                         }
                     }
+                    Console.WriteLine("\n" + $@"Файл {number}_{archiveName}.txt сохранен.");
+                    Console.WriteLine($@"Путь до файла: {savePath}\{number}_{archiveName}.txt");
                 }
                 else
                 {
